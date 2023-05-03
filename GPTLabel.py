@@ -1,7 +1,7 @@
 import openai
 import pandas as pd
 import tqdm
-openai.api_key = "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"
+openai.api_key = "Your own api_key"
 
 def chat(inp, role="user"):
     inp = str(inp) + "Rate the politeness of the previous sentence on a scale of 1 to 10, where 1 represents extremely impolite and 10 represents extremely polite, just give me the number, no need to explain."
