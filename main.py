@@ -165,7 +165,7 @@ def NNmain(method):
         # for j in hidden:
         #     for k in hidden2:
         hidden1 = 128
-        input_size = 50
+        input_size = 50*maxlen
         output_size = len(df["label"].unique())
         model = NeuralNetwork(input_size, hidden1, output_size)
         epochs = 10
